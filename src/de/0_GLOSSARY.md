@@ -29,6 +29,10 @@ Cascading Style Sheets. Eine Programmiersprache um die Darstellung von Webseiten
 ### Cubietruck
 Einplatinencomputer ähnlich wie Raspberry PI/Odroid.
 
+### CuxD
+
+### Datenbank
+
 ### Gerät
 
 ### Homematic
@@ -42,6 +46,7 @@ Im Multihost-Modus gibt es mehrere Hosts, einer davon ist der Master, die andere
 ### HTML
 Hypertext Markup Language. Eine Seitenbeschreibungssprache (Grundlage des WWW), die dazu dient in Webbrowsern Inhalte (Text, Links, Grafiken, Videos usw.) darzustellen.
 
+### HTTP
 
 ### Instanz
 Jeder Adapter hat mindestens eine Instanz, es können aber auch mehrere sein. Es gibt Unterschiedliche Gründe warum mehrere Instanzen verwendet werden. Zum Beispiel kann man mit einer zweiten Instanz vom JavaScript Adapter Testen ohne das Risiko einen Ausfall von Wichtigen Scripten zu haben. Da im Fehlerfall nur die Test Instanz abstürzt.
@@ -57,6 +62,8 @@ Programmiersprache mit der bei ioBroker so ziemlich alles programmiert ist und p
 Hauptprogramm, das eine Sammlung von Funkionen für Adapter zur Verfügung stellt. 
 Es startet erst eine Datenbank (falls erforderlich) und danach alle freigegebenen Adapter-Instanzen 
 und überwacht diese, ob sie noch laufen.
+
+### JSON
 
 ### Kanal
 
@@ -106,14 +113,22 @@ Kreditkartengrosser Einplatinencomputer (entwickelt von der Raspberry PI Foundat
 ### Redis
 Eine No-SQL Datenbank. Wird optional benutzt um die Performance zu steigern. Diese Option muss extra eingeschaltete werden.
 
+### RPC
+
+Remote Procedure Call (siehe XML-RPC)
+
 ### State
 siehe Objekte
+
+### Trigger
 
 ### vis
 Weboberfläche mit der eigene Visualisierungen erstellt werden können (mittels anpassbarer Widgets, eigenem HTML-Code, CSS).
 
 ### Widget
 Ein Steuerelement in Vis. Widgets dienen dazu, Zustände anzuzeigen oder zu Steuern. Zum Beispiel eine Lampe ein -und ausschalten über einen Button, der abhängig vom Schaltzustand sein Aussehen verändert.
+
+### XML-RPC
 
 ###Zustand
 siehe Objekte
